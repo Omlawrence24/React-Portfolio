@@ -5,7 +5,7 @@ function Nav () {
 
 
   <div class="container is-fullhd">
-  <h1 id="move"> Welcome to Obedia Lawrence's Portfolio </h1>
+  <h1 id="move">  Obedia Lawrence's Portfolio </h1>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
