@@ -14,9 +14,6 @@ class Portfolio extends Component {
     render() {
 
         return (
-          
-
-
                                     <Nav>
                                         <AboutCard>
                                             <AboutSummary>
@@ -24,7 +21,6 @@ class Portfolio extends Component {
                                             </AboutSummary>
                                         </AboutCard>
                                     </Nav>
-  
     )};
 };
 
