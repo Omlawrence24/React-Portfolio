@@ -11,18 +11,20 @@ class Portfolio extends Component {
 
 
 
-render() {
-    
-    return (
-        <div>
-         <Nav>
-         <AboutCard>
-          <AboutSummary>
-           
-         </AboutSummary>
-       </AboutCard>  
-     </Nav>
-     </div>
+    render() {
+
+        return (
+          
+
+
+                                    <Nav>
+                                        <AboutCard>
+                                            <AboutSummary>
+
+                                            </AboutSummary>
+                                        </AboutCard>
+                                    </Nav>
+  
     )};
 };
 
