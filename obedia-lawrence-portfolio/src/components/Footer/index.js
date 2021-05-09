@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer () {
 
-
+return (
  <div class="card text-center ">
  <div class="card-header">
    Best Regards
@@ -16,7 +16,7 @@ function Footer () {
 
  </div>
 </div>
-
+)
 }
 
 export default Footer;

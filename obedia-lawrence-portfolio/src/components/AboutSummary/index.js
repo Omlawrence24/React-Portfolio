@@ -1,7 +1,7 @@
 import React from "react";
 
 function AboutSummary () {
-
+return (
 <div>
 <h3> How did this Marketing Girl from the south discover Software Engineering </h3>
 
@@ -39,7 +39,7 @@ some of the most captivating sites EVER.
 
 </div>
 
-
+)
 };
 
 

@@ -1,7 +1,7 @@
 import React from "react";
 
-function AboutCard() {
-
+ function AboutCard () {
+        return (
           <div>
         <div class="notification is-primary">
             <h3><strong>ABOUT ME</strong></h3>
@@ -29,6 +29,7 @@ function AboutCard() {
             </div>
         </div>
     </div>
+        )
 };
 
 export default AboutCard;
