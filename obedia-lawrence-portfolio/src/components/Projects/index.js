@@ -3,7 +3,7 @@ import React from "react";
 
 function Projects () {
 <div>
-<div class="notification is-primary">
+<div ClassName="notification is-primary">
       <h3><strong>Previous Projects</strong></h3>
     </div>
     <h1 id="profont">

@@ -8,9 +8,6 @@ import AboutSummary from "../components/AboutSummary";
 class Portfolio extends Component {
 
 
-
-
-
     render() {
 
         return (

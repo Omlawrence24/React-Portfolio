@@ -2,11 +2,13 @@ import React from "react";
 
 function AboutSummary () {
 return (
-<div>
-<h3> How did this Marketing Girl from the south discover Software Engineering </h3>
 
-<img src="../assests/bluewebsitephotos/talking.JPG" class="col-md-6 float-md-end mb-3 ms-md-3"
-alt="main profile"> </img>
+<article>
+
+<h3> How did this Marketing Girl from the south discover Software Engineering </h3>
+{/* 
+<img src="../asset/bluewebsitepage/closeup/jpg" 
+alt="main profile"> </img> */}
 
 <h5> I have specialized in Retail and Management in the Food and Beverage Industry for
 over 10 years! In regards to Software Engineering it's been a great
@@ -37,9 +39,10 @@ Planning to use the knowledge I gain here to land a job in Marketing development
 some of the most captivating sites EVER.
 </h5>
 
-</div>
+</article>
 
-)
+);
+
 };
 
 
