@@ -1,43 +1,29 @@
-import React from "react";
-// import { render } from "react-dom";
+import React from 'react';
+import logo from "../close.png";
 
+function NavBar() {
+  return (
+    <div>
+      <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="#"><img src={logo} alt="logo..."/></a>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav ml-auto">
+              <li className="nav-item active">
+                <a className="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Link</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  )
+}
 
-
-
-
-
-
-
-
-// function Nav () {
-//           render(
-
-//   <div ClassName="container is-fullhd">
-//   <h1 id="move">  Obedia Lawrence's Portfolio </h1>
-
-// <nav ClassName="navbar navbar-expand-lg navbar-light bg-light">
-//   <div ClassName="container-fluid">
-//     <a ClassName="navbar-brand" href="#">Navbar</a>
-//     <button ClassName="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-//       <span ClassName="navbar-toggler-icon"></span>
-//     </button>
-//     <div ClassName="collapse navbar-collapse" id="navbarNav">
-//       <ul ClassName="navbar-nav">
-//         <li ClassName="nav-item">
-//           <a ClassName="nav-link active" aria-current="page" href="#">Home</a>
-//         </li>
-//         <li ClassName="nav-item">
-//           <a ClassName="nav-link" href="#">Contacts</a>
-//         </li>
-//         <li ClassName="nav-item">
-//           <a ClassName="nav-link" href="#">Projects</a>
-//         </li>
-//       </ul>
-//     </div>
-//   </div>
-// </nav>
-// </div>
-//           )
-// }
-
-// export default Nav;
+export default NavBar
