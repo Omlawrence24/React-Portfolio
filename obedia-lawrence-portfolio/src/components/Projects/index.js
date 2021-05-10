@@ -2,6 +2,7 @@ import React from "react";
 
 
 function Projects () {
+  return (
 <div>
 <div ClassName="notification is-primary">
       <h3><strong>Previous Projects</strong></h3>
@@ -34,7 +35,7 @@ function Projects () {
     </h3>
 
   </div>
-  
+  )
   };
 
 

@@ -124,3 +124,56 @@ z-index: 1;
 }
 
 }
+/* **********************************ABOUT******************************************* */
+
+.main-photo {
+    width: 65%;
+    height: 67%;
+    border: 5px solid;
+    border-color: var(--primary-orange);
+    margin-left: 5rem;
+    margin-top: 3rem;
+    
+}
+
+.about-page{
+    position: relative;
+    background: black;
+    background-size: cover;
+    background-position: center;
+    height: 90vh
+}
+
+.card-body{
+    background:var(--primary-orange);
+    margin-left: 5rem;
+    margin-top: 3rem;
+    
+
+}
+
+.card-text {
+    text-indent: 25px;
+}
+
+/* ***********************SERVICES*************************************** */
+
+.tech {
+    text-align:center;
+    background: var(--primary-orange);
+}
+
+.header{
+text-align: center;
+font-weight: bolder;
+text-align: center;
+}
+
+.col-md-3{
+    font-size: 2rem;
+}
+
+.container {
+    text-align: center;
+}
+

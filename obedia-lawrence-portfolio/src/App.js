@@ -1,10 +1,15 @@
 // import React from "react";
 // import Portfolio from "./page/portfolio";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Particles from "react-particles-js"
 import NavBar from "./components/Nav";
 import Header from "./components/Header";
+import About from "./components/About";
 import Footer from "./components/Footer";
+import Services from "./components/Services";
+import Projects from "./components/Projects";
+
 import "./App.css";
 
 function App() {
@@ -33,7 +38,10 @@ function App() {
   />
   <NavBar />;
  <Header />;
- <Footer/>
+ < About/>;
+ <Services/>;
+ <Projects/>;
+ <Footer/>;
   </>
   );
 }
