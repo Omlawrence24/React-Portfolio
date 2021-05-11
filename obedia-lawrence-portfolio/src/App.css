@@ -177,3 +177,94 @@ text-align: center;
     text-align: center;
 }
 
+
+/* ***********************projects*************************************** */
+.photo{
+    background: black;
+    text-align: center;
+
+    /* margin-left: 0rem;
+    margin-right: 0rem;
+    padding-left: 5rem;
+} */
+}
+.headerp {
+    color: var(--primary-blue);
+    text-transform: uppercase;
+}
+.carousel-item {
+    margin-left: 27rem;
+    text-align: center;
+}
+
+.carousel-caption1{
+    text-align: center;
+    color: var(--primary-blue);
+    margin-right: 60rem;
+    margin-bottom: 7rem;
+    font-weight: bolder;
+
+}
+.carousel-caption2{
+    text-align: center;
+    color: var(--primary-blue);
+    margin-right: 60rem;
+    margin-bottom: 10rem;
+
+}
+.carousel-caption3{
+    text-align: center;
+    color:var(--primary-blue);
+    margin-right: 60rem;
+    margin-bottom: 10rem;
+
+}
+.carousel-caption4{
+    text-align: center;
+    color: var(--primary-blue);
+    margin-right: 60rem;
+    margin-bottom: 10rem;
+
+}
+
+.carousel-control-prev-icon{
+    color: var(--primary-orange);
+   
+}
+
+/* *********************************CONTACT*************************************** */
+
+.contacts{
+    text-align: center;
+    background: var(--primary-orange);
+  
+
+}
+
+.input-group-text{
+    /* margin-left: 15rem; */
+
+}
+
+
+/* ********************************FOOTER*********************************************** */
+
+.svg1{
+text-align: center;
+}
+.svg2{
+    text-align: center;
+    margin-top: -6rem;
+    margin-left: -22rem;
+    }
+    .svg3{
+        text-align: center;
+        margin-top: -6rem;
+        margin-left: 22rem;
+        }
+    
+.footer{
+    color: var(--primary-blue);
+    background: black;
+
+}

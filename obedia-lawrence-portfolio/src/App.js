@@ -9,6 +9,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Services from "./components/Services";
 import Projects from "./components/Projects";
+import Contacts from "./components/Contacts";
 
 import "./App.css";
 
@@ -41,6 +42,7 @@ function App() {
  < About/>;
  <Services/>;
  <Projects/>;
+ <Contacts/>;
  <Footer/>;
   </>
   );
