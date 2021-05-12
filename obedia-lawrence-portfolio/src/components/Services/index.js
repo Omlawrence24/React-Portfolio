@@ -7,8 +7,8 @@ const Services = () => {
        
             <Container>
            
-            <div className="container"> 
             <h1 className="header"> Technologies & Services Offered</h1>
+            <div className="container"> 
   <div className="row align-items-start">
     <div className="col-md-3">
       HTML

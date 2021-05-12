@@ -31,7 +31,8 @@ body {
 .navbar-nav > li > a {
 color: var(--primary-white) !important;
 margin-block: .075rem;
-margin-inline: 1rem;
+margin-inline: .9rem;
+margin-left: 3rem;
 }
 
 .navbar-nav > li > a.active,  .navbar-nav > li > a.active:focus {
@@ -132,7 +133,7 @@ z-index: 1;
     border: 5px solid;
     border-color: var(--primary-orange);
     margin-left: 5rem;
-    margin-top: 3rem;
+    margin-top: 4.5rem;
     
 }
 
@@ -147,7 +148,8 @@ z-index: 1;
 .card-body{
     background:var(--primary-orange);
     margin-left: 5rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
     
 
 }
@@ -175,6 +177,7 @@ text-align: center;
 
 .container {
     text-align: center;
+    margin-left:6.9rem;
 }
 
 
@@ -192,17 +195,21 @@ text-align: center;
     color: var(--primary-blue);
     text-transform: uppercase;
 }
+/* 
 .carousel-item {
     margin-left: 27rem;
     text-align: center;
+} */
+
+.img{
+margin: auto;
 }
 
-.carousel-caption1{
+.caption{
     text-align: center;
     color: var(--primary-blue);
-    margin-right: 60rem;
-    margin-bottom: 7rem;
     font-weight: bolder;
+    font-size:xx-large;
 
 }
 .carousel-caption2{
@@ -212,13 +219,15 @@ text-align: center;
     margin-bottom: 10rem;
 
 }
-.carousel-caption3{
+.caption3{
     text-align: center;
     color:var(--primary-blue);
-    margin-right: 60rem;
-    margin-bottom: 10rem;
-
+    font-weight: bolder;
+    font-size:x-large;
+ margin-bottom: -4rem;
 }
+   
+
 .carousel-caption4{
     text-align: center;
     color: var(--primary-blue);
@@ -229,7 +238,6 @@ text-align: center;
 
 .carousel-control-prev-icon{
     color: var(--primary-orange);
-   
 }
 
 /* *********************************CONTACT*************************************** */
@@ -248,9 +256,13 @@ text-align: center;
 
 
 /* ********************************FOOTER*********************************************** */
+.thanks{
+margin-top: 1.5rem;
 
+}
 .svg1{
 text-align: center;
+margin-left: 2.1rem;
 }
 .svg2{
     text-align: center;
