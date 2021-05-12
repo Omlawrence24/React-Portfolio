@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cd obedia-lawrence-portfolio && npm run build",
-    "install": "cd obedia-lawrence-portfolio && npm run build",
+    "install": "cd obedia-lawrence-portfolio && npm install",
+    "heroku-post-build": "npm run build",
     "start": "node server.js"
   },
   "repository": {
