@@ -21,9 +21,7 @@ function NavBar() {
               <li className="nav-item active">
                 <a className="nav-link" aria-current="page" to="/Services">Services</a>
               </li>
-              <li className="nav-item active">
-                <a className="nav-link" aria-current="page" to="/Experience">Experience</a>
-              </li>
+             
               <li className="nav-item active">
                 <a className="nav-link" aria-current="page" to="/Portfolio">Portfolio</a>
               </li>

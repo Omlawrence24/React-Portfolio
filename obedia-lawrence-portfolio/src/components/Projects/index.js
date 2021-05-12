@@ -10,7 +10,7 @@ import Carousel from "react-bootstrap/Carousel";
 function Projects() {
   return (
  <Container class="d-flex p-20 bd-highlight">
-    <Carousel>
+    <Carousel className="backg">
       <Carousel.Item className="caption">
         <img
           className="d-block img"

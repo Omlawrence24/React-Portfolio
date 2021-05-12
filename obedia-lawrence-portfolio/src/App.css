@@ -36,11 +36,11 @@ margin-left: 3rem;
 }
 
 .navbar-nav > li > a.active,  .navbar-nav > li > a.active:focus {
-    border-top: 0.1875rem solid var(--primary-blue) ;
+    border-top: 0.1875rem solid var(--primary-orange) ;
 }
 
 .navbar-nav > li > a:hover {
-    border-top: 0.1875rem solid var(--primary-blue) ;   
+    border-top: 0.1875rem solid var(--primary-orange) ;   
 }
 
 /* **************************HEADER********************************************* */
@@ -191,6 +191,11 @@ text-align: center;
     padding-left: 5rem;
 } */
 }
+.backg{
+    background: black;
+}
+
+
 .headerp {
     color: var(--primary-blue);
     text-transform: uppercase;
