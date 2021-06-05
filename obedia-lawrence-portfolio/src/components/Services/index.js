@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/esm/Container';
 
 const Services = () => {
     return (
-        <div className="tech"> 
+        <div id="services" className="tech"> 
        
             <Container>
            

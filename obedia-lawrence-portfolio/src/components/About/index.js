@@ -3,7 +3,7 @@ import close from "../../close.png";
 
 const About = () => {
     return (
-        <div className="about-page">
+        <div id="about" className="about-page">
             <div className="card mb-3">
                 <div className="row g-0">
                     <div className="col-md-4">

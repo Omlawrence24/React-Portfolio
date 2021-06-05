@@ -9,6 +9,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 function Projects() {
   return (
+    <div id="projects">
  <Container class="d-flex p-20 bd-highlight">
     <Carousel className="backg">
       <Carousel.Item className="caption">
@@ -57,6 +58,7 @@ function Projects() {
       </Carousel.Item>
     </Carousel>
 </Container>
+</div>
   )
 };
 
