@@ -49,7 +49,7 @@ margin-left: 3rem;
 
 /* **************************HEADER********************************************* */
 
-.header {
+#header {
     position: relative;
     background: url(Usa.PNG) no-repeat;
     width:100%;
