@@ -5,7 +5,7 @@ const Header = () => {
         <div id="header">
             <div className="header-wraper">
                 <div className="main-info">
-
+                
                     <h1> Obedia "bebe" Lawrence </h1>
                     <Typed
                         className="typed-text"
