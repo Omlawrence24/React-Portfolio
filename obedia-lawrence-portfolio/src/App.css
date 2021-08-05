@@ -14,9 +14,7 @@ body {margin:0;
 
 nav{
     z-index: 2;
-
 }
-
 nav a.nav-link {
     /* font-weight: 500; */
     letter-spacing:0.0375rem;
@@ -58,7 +56,6 @@ margin-left: 3rem;
     height: 90vh
 }
 
-
 .main-info {
     position: absolute;
     top: 0;
@@ -78,14 +75,12 @@ margin-left: 3rem;
     text-transform: uppercase;
 }
 
-
 /* **********TYPED TEXT******************** */
 
 .typed-text {
     font-size: 2rem;
     color:var(--primary-blue);
     text-transform: uppercase;
-
 }
 
 /* *****************HEADER MAIN OFFER BUTTON********************* */
@@ -96,7 +91,6 @@ text-transform: uppercase;
 border-radius: 0%;
 padding: 0.625rem 0.75rem 0.75rem 0.625rem ;
 margin: 2rem;
-
 }
 
 .btn-main-offer:hover{
@@ -104,7 +98,6 @@ margin: 2rem;
     background-color: var(--primary-white);
     color: var(--primary-orange);
     transition: 2s ease-in-out;
-
 }
 
 .tsparticles-canvas-el{
@@ -119,7 +112,6 @@ z-index: 1;
         display: none;
     }
 }
-
 
 @media(max-width: 768px) {
 .main-info h1{
@@ -142,6 +134,7 @@ z-index: 1;
     justify-content: space-around;
     align-items: center;
 }
+
 .main-photo {
     width: 65%;
     height: 67%;
@@ -149,7 +142,6 @@ z-index: 1;
     border-color: var(--primary-orange);
     margin-left: 5rem;
     margin-top: 4.5rem;
-    
 }
 
 .about-page{
@@ -165,8 +157,6 @@ z-index: 1;
     margin-left: 5rem;
     margin-top: 2rem;
     margin-bottom: 3rem;
-    
-
 }
 
 .card-text {
@@ -210,7 +200,6 @@ text-align: center;
     background: black;
 }
 
-
 .headerp {
     color: var(--primary-blue);
     text-transform: uppercase;
@@ -230,15 +219,15 @@ margin: auto;
     color: var(--primary-blue);
     font-weight: bolder;
     font-size:xx-large;
-
 }
+
 .carousel-caption2{
     text-align: center;
     color: var(--primary-blue);
     margin-right: 60rem;
     margin-bottom: 10rem;
-
 }
+
 .caption3{
     text-align: center;
     color:var(--primary-blue);
@@ -247,7 +236,6 @@ margin: auto;
  margin-bottom: -4rem;
 }
    
-
 .carousel-caption4{
     text-align: center;
     color: var(--primary-blue);
@@ -266,30 +254,28 @@ margin: auto;
     text-align: center;
     background: var(--primary-orange);
   
-
 }
 
 .input-group-text{
     /* margin-left: 15rem; */
-
 }
-
 
 /* ********************************FOOTER*********************************************** */
 .thanks{
 margin-top: 1.5rem;
-
 }
+
 .svg1{
 text-align: center;
 margin-left: 2.1rem;
 }
+
 .svg2{
     text-align: center;
     margin-top: -6rem;
     margin-left: -22rem;
     }
-    .svg3{
+ .svg3{
         text-align: center;
         margin-top: -6rem;
         margin-left: 22rem;
@@ -298,5 +284,4 @@ margin-left: 2.1rem;
 .footer{
     color: var(--primary-blue);
     background: black;
-
 }
