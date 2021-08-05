@@ -4,6 +4,7 @@ import close from "../../close.png";
 const About = () => {
     return (
         <div id="about" className="about-page">
+            <div className="flexbox-container">
             <div className="card mb-3">
                 <div className="row g-0">
                     <div className="col-md-4">
@@ -26,7 +27,7 @@ const About = () => {
                              And with the world of Technology I would love to bridge that gap. How exciting it is to connect & service people all over the world?
                             </h5>
 
-                            
+                            </div>
                         </div>
                     </div>
                 </div>

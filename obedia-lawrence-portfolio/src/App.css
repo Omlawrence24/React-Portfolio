@@ -7,6 +7,10 @@
      --primary-orange: #f9ab00;
 }
 /* *********************************NavBar**************************** */
+body {margin:0;
+   padding: 0;
+   box-sizing: border-box;
+}
 
 nav{
     z-index: 2;
@@ -126,7 +130,17 @@ z-index: 1;
 
 }
 /* **********************************ABOUT******************************************* */
-
+/* 
+@media(max-width: 768px) {
+    .about-page {
+      display:position
+    }
+} */
+.flexbox-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .main-photo {
     width: 65%;
     height: 67%;
